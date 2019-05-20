@@ -126,7 +126,16 @@
 {
 	opacity: 1;
 }
-
+#active
+{
+	background: #fff;
+	color: #000;
+}
+#active:hover
+{
+	background: #2962FF;
+	color: #fff;
+}
 .container .section .menu .subsection .ico div
 {
 	background: #fff;
@@ -262,7 +271,7 @@
 }
 .swiper
 {
-	height: 60px;
+	height: 70px;
 	width: 200px;
 	border: 0px solid transparent;
 	border-radius: 5px;
