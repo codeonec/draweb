@@ -1,0 +1,84 @@
+.box
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #fff;
+	padding-bottom: 50px;
+	padding-top: 70px; 
+}
+.box .contai{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+}
+.box .contai .chart
+{
+	width: 110px;
+	height: 110px;
+	padding-bottom: 3%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.box .contai .chart .text
+{
+	color: #fff;
+	text-align: center; 
+	transform: translate(0%,200%);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+}
+.chart-text
+{
+	color: #fff;
+	font-size: 20px;
+	padding-top: 20px;
+	text-align: center; 
+	padding-bottom: 100px; 
+}
+.chart-text span
+{
+	display: block;
+}
+.box .contai .chart .text h5
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.chart-text .text1
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+.chart-text .text1
+{
+	font-family: 'Montserrat', sans-serif;
+}
+.chart-text .btn1
+{
+	padding-top: 40px; 
+}
+.chart-text .btn1 a
+{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 18px; 
+	border: 2px solid #2962FF;
+	padding: 5px 10px;
+	border-radius: 30px;
+	transition: 0.5s ease;  
+}
+.chart-text .btn1 a:hover
+{
+	background: #2962FF;
+	color: #fff;
+}
+@media screen and (max-width:470px) {
+	.contai{
+		min-width: 50%;
+	}
+}
